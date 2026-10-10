@@ -8,6 +8,7 @@ h2,
 h3 {
     color: #324101;
     font-family: "papyrus";
+    text-align: center
 }
 
 img {
@@ -17,13 +18,12 @@ img {
 P {
     color: rgb(99, 113, 120);
     font-family: "papyrus";
-
+    text-align: center
 }
 
 li {
     color: rgb(99, 113, 120);
     font-family: "papyrus";
-
 }
 
 A {
