@@ -1,0 +1,65 @@
+ HTML {
+    background-color: yellowgreen;
+}
+ 
+A {color: rebeccapurple;}
+A hover {color: darkorange;}
+
+ UL {
+    color: rgb(120, 69, 6);
+}
+
+ h1 {
+    background-color: maroon;
+    color: darkorange;
+    font-weight: normal;
+    padding: 20px;
+}
+
+
+P {
+    color: wheat; 
+    background-color: saddlebrown;
+    padding: 15px;
+    margin: 30px;
+}
+
+IMG {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+    width: 30%;
+}
+
+IMG:hover {
+    width: 40%; 
+    transition: linear 1000ms;
+}
+
+#beyonce {
+    width: 70%;
+}
+
+.highlight_01 {
+    background-color: olive;
+}
+
+.highlight_01 strong {
+    background-color: maroon;
+}
+
+.highlight_02 {
+    background-color: darkorange;
+}
+
+#main {
+    background-color: wheat
+}
+
+#gallery {
+    display: flex; flex-wrap: wrap; align-items: flex-start; row-gap: 15px;
+}
+
+#gallery IMG {width: 50%;}
+
+#gallery IMG {background-color:saddlebrown; padding: 50px}

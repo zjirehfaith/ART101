@@ -1,0 +1,31 @@
+body {
+    background: #0d1421;
+    padding: 50px;
+}
+
+h1,
+h2,
+h3 {
+    color: #324101;
+    font-family: "papyrus";
+}
+
+img {
+    width: 300px;
+}
+
+P {
+    color: rgb(99, 113, 120);
+    font-family: "papyrus";
+
+}
+
+li {
+    color: rgb(99, 113, 120);
+    font-family: "papyrus";
+
+}
+
+A {
+    color:#7b855a
+}
