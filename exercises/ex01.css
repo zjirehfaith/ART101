@@ -2,8 +2,13 @@
     background-color: yellowgreen;
 }
  
-A {color: rebeccapurple;}
-A hover {color: darkorange;}
+A {
+    color: rebeccapurple;
+}
+
+A:hover {
+    color: darkorange
+}
 
  UL {
     color: rgb(120, 69, 6);
@@ -15,7 +20,6 @@ A hover {color: darkorange;}
     font-weight: normal;
     padding: 20px;
 }
-
 
 P {
     color: wheat; 

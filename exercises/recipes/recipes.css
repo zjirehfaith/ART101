@@ -1,0 +1,118 @@
+ HTML {
+    background-color: yellowgreen;
+}
+ 
+A {
+    color: rebeccapurple;
+}
+
+A:hover {
+    color: darkorange
+}
+
+ UL {
+    color: rgb(120, 69, 6);
+}
+
+ h1 {
+    background-color: maroon;
+    color: darkorange;
+    font-weight: normal;
+    padding: 20px;
+}
+
+P {
+    color: wheat; 
+    background-color: saddlebrown;
+    padding: 15px;
+    margin: 30px;
+}
+
+IMG {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+    width: 30%;
+}
+
+IMG:hover {
+    width: 40%; 
+    transition: linear 1000ms;
+}
+
+#beyonce {
+    width: 70%;
+}
+
+.highlight_01 {
+    background-color: olive;
+}
+
+.highlight_01 strong {
+    background-color: maroon;
+}
+
+.highlight_02 {
+    background-color: darkorange;
+}
+
+#main {
+    background-color: wheat
+}
+
+#gallery {
+    display: flex; 
+    flex-wrap: wrap; 
+    align-items: flex-start; 
+    row-gap: 15px;
+}
+
+#gallery IMG {
+    width: 50%;
+}
+
+#gallery IMG {
+    background-color:saddlebrown; 
+    padding: 50px
+}
+
+
+/* home page styles */
+
+#pan-home {
+    position: relative;
+    height: 100vh;
+}
+
+#chicken {
+    position: absolute; 
+    bottom: 10px; 
+    left: 30%
+}
+
+#chicken2 {
+    position: absolute; 
+    bottom: 80px; 
+    right: 20vw;
+}
+
+#chicken3 {
+    position: absolute; 
+    bottom: 10px; 
+    left: 100px;
+}
+
+#homelink { 
+    top: 50px; 
+    right: 50px;
+}
+
+#homelink IMG {
+    width: 150px
+}
+
+.henny-penny-regular {
+  font-family: "Henny Penny", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
