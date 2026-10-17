@@ -43,16 +43,16 @@ H1 {
 #sitting-main img{
     width:15%;
     height:auto;
-    padding-left: 10%;
+    padding-left: 8%;
     position: absolute;
-    top: 430px;
+    top: 500px;
 }
 
 #compass img {
     width:100px;
     height: auto;
-    padding-left: 80px;
     top: 60%;
+    padding-left: 100px;
     position: absolute
 }
 
