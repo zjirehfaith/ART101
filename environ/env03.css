@@ -96,22 +96,66 @@ H1 {
 }
 
 #title {
-    font-size: 20px;
+    font-size:x-large;
     padding: 15px, 30px;
+    font-family: papyrus;
+    background-color: #dbefef40
 }
 
 #mood {
-    font-size: 20px;
+    font-size:x-large;
     padding: 15px, 30px;
+    font-family: papyrus;
+    background-color: #dbefef40
 }
 
-#hidden-memories {
-    font-size: 20px;
+#thepassenger {
+    font-size:x-large;
     padding: 15px, 30px;
+    font-family: papyrus;
+    background-color: #dbefef40
+
 }
 
-#main-box {
-    background-color: #dbefef40;
+#oldboat {
+    font-size:x-large;
+    padding: 15px, 30px;
+    font-family: papyrus;
+    background-color: #dbefef40
+
+}
+
+#spinningcompass {
+    font-size:x-large;
+    padding: 15px, 30px;
+    font-family: papyrus;
+    background-color: #dbefef40
+}
+
+#tangledrope {
+    font-size:x-large;
+    padding: 15px, 30px;
+    font-family: papyrus;
+    background-color: #dbefef40
+}
+
+#birdsflying {
+    font-size:x-large;
+    padding: 15px, 30px;
+    font-family: papyrus;
+    background-color: #dbefef40
+
+}
+
+#thevastsea {
+    font-size:x-large;
+    padding: 15px, 30px;
+    font-family: papyrus;
+    background-color: #dbefef40
+
+}
+
+#environment-output {
     height: 150px;
     padding-top: 200px;
     margin: 30%;
@@ -120,7 +164,74 @@ H1 {
     flex-wrap: wrap;
     justify-content: center;
     align-items:last baseline;
-    margin-top: -30%;
+    margin-top: -700px;
     margin-left: 43%;
 }
 
+#environment-output {
+    position: relative;
+    z-index: 999;      
+}
+
+#environment-output #title + p {
+    font-size: 500%;
+    color: #ddf4f4;
+    margin-top: 50px;
+    font-family: papyrus;
+}
+
+#environment-output #mood + p {
+    font-size: 350%;
+    color: #ddf4f4;
+    margin-top: 50px;
+    font-family: papyrus;
+    text-align: center
+}
+
+#environment-output #thepassenger + p {
+    font-size: 200%;
+    color: #ddf4f4;
+    margin-top: 50px;
+    font-family: papyrus;
+    text-align: center
+}
+
+#environment-output #oldboat + p {
+    font-size: 200%;
+    color: #ddf4f4;
+    margin-top: 50px;
+    font-family: papyrus;
+    text-align: center
+}
+
+#environment-output #spinningcompass + p {
+    font-size: 200%;
+    color: #ddf4f4;
+    margin-top: 50px;
+    font-family: papyrus;
+    text-align: center
+}
+
+#environment-output #tangledrope + p {
+    font-size: 200%;
+    color: #ddf4f4;
+    margin-top: 50px;
+    font-family: papyrus;
+    text-align: center
+}
+
+#environment-output #birdsflying + p {
+    font-size: 200%;
+    color: #ddf4f4;
+    margin-top: 50px;
+    font-family: papyrus;
+    text-align: center
+}
+
+#environment-output #thevastsea + p {
+    font-size: 200%;
+    color: #ddf4f4;
+    margin-top: 50px;
+    font-family: papyrus;
+    text-align: center
+}
