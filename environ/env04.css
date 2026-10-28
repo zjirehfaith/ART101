@@ -1,0 +1,250 @@
+
+html, body {
+    background-image: url(../environ/images/scene1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+H1 {
+    color:rgb(37, 33, 27);
+    font-family: "papyrus";
+    font-size-adjust: 1;
+    text-align: center;
+    padding-top: 2%
+}
+
+.flex {
+    display:flex;
+    flex-direction: row;
+    gap: 15px;
+    width: 100%;
+    padding-left: 30px;
+    position: relative;
+}
+
+.flex #boat img {
+    width:50%;
+}
+
+.flex #rope img {
+    width: 70%;
+}
+
+.top-section #birds img {
+    width: 35%;
+    margin-top: -100px;
+    float:left;
+}
+
+#compass img {
+    width:100px;
+    height: auto;
+    top: 60%;
+    padding-left: 100px;
+    position: absolute
+}
+
+#scene1-text1 p {
+    font-size:x-large;
+    font-family: papyrus;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(11, 10, 9);
+    background-color: #7b868640; 
+    margin-left: 70%;
+    margin-right: 50px;
+}
+
+#scene1-text2 p {
+    font-size:x-large;
+    font-family: papyrus;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(11, 10, 9);
+    background-color: #7b868640; 
+    margin-left: 70%;
+    margin-right: 50px;
+    margin-bottom: 20%;
+}
+
+.scene1-text {
+   margin-top: -120px;
+}
+
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: block; 
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+}
+
+#sitting-main img{
+    width:15%;
+    height:auto;
+    padding-left: 8%;
+    position: absolute;
+    top: 500px;
+    cursor: pointer;
+
+}
+
+#title {
+    font-size:x-large;
+    padding: 15px, 30px;
+    font-family: papyrus;
+    background-color: #dbefef40
+}
+
+#mood {
+    font-size:x-large;
+    padding: 15px, 30px;
+    font-family: papyrus;
+    background-color: #dbefef40
+}
+
+#thepassenger {
+    font-size:x-large;
+    padding: 15px, 30px;
+    font-family: papyrus;
+    background-color: #dbefef40
+
+}
+
+#oldboat {
+    font-size:x-large;
+    padding: 15px, 30px;
+    font-family: papyrus;
+    background-color: #dbefef40
+
+}
+
+#spinningcompass {
+    font-size:x-large;
+    padding: 15px, 30px;
+    font-family: papyrus;
+    background-color: #dbefef40
+}
+
+#tangledrope {
+    font-size:x-large;
+    padding: 15px, 30px;
+    font-family: papyrus;
+    background-color: #dbefef40
+}
+
+#birdsflying {
+    font-size:x-large;
+    padding: 15px, 30px;
+    font-family: papyrus;
+    background-color: #dbefef40
+
+}
+
+#thevastsea {
+    font-size:x-large;
+    padding: 15px, 30px;
+    font-family: papyrus;
+    background-color: #dbefef40
+
+}
+
+#environment-output {
+    height: 150px;
+    padding-top: 200px;
+    margin: 30%;
+    display: flex;         
+    gap: 12px;      
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:last baseline;
+    margin-top: -700px;
+    margin-left: 43%;
+}
+
+#environment-output {
+    position: relative;
+    z-index: 999;      
+}
+
+#environment-output #title + p {
+    font-size: 500%;
+    color: #ddf4f4;
+    margin-top: 50px;
+    font-family: papyrus;
+}
+
+#environment-output #mood + p {
+    font-size: 350%;
+    color: #ddf4f4;
+    margin-top: 50px;
+    font-family: papyrus;
+    text-align: center
+}
+
+#environment-output #thepassenger + p {
+    font-size: 200%;
+    color: #ddf4f4;
+    margin-top: 50px;
+    font-family: papyrus;
+    text-align: center
+}
+
+#environment-output #oldboat + p {
+    font-size: 200%;
+    color: #ddf4f4;
+    margin-top: 50px;
+    font-family: papyrus;
+    text-align: center
+}
+
+#environment-output #spinningcompass + p {
+    font-size: 200%;
+    color: #ddf4f4;
+    margin-top: 50px;
+    font-family: papyrus;
+    text-align: center
+}
+
+#environment-output #tangledrope + p {
+    font-size: 200%;
+    color: #ddf4f4;
+    margin-top: 50px;
+    font-family: papyrus;
+    text-align: center
+}
+
+#environment-output #birdsflying + p {
+    font-size: 200%;
+    color: #ddf4f4;
+    margin-top: 50px;
+    font-family: papyrus;
+    text-align: center
+}
+
+#environment-output #thevastsea + p {
+    font-size: 200%;
+    color: #ddf4f4;
+    margin-top: 50px;
+    font-family: papyrus;
+    text-align: center
+}
+
+#output {
+    position: relative; 
+    z-index: 9999; 
+    background: #dbefef00; 
+    color: #ddf4f4; 
+    font-size: 170%; 
+    padding: 10px;
+    text-align:center;
+    font-family: papyrus;
+}
