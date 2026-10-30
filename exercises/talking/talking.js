@@ -39,13 +39,17 @@ $("#character-b").click( function(){
 // make the color buttons work
 $("#answer-green").click(function () {
 
-    $("body").css("background-color", "green");
+    $("body").css( "background-color", "green" );
+    $("#chat").append("<p>Diana: How did you do that?</p>");
+    $("#answers").css("display", "none");
 
 });
 
 $("#answer-pink").click(function () {
 
-    $("body").css("background-color", "pink");
-
+    $("body").css( "background-color", "pink" );
+    $("#chat").append("<p>Diana: I still don't like it.</p>");
+    $("#answers").css("display", "none");
+    
 });
 
