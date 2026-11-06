@@ -1,0 +1,24 @@
+body {
+  font-family: papyrus;
+  margin: 270px;
+  color: rgb(136, 149, 156);
+  background-color: #0d1421;
+  text-align: center;
+
+}
+
+#good-button {
+  background:  #7b855a;
+  size: 50%;
+  border: 2px solid #b6c097;
+  position: relative;
+  overflow: hidden;
+  padding: 10% 10%; 
+  font-family: papyrus;
+  font-size: 200%;
+}
+
+#output {
+    font-size: 200%;
+    margin-top: 3%
+}

@@ -1,0 +1,61 @@
+body {
+  font-family: papyrus;
+  margin: 30px;
+  color: rgb(136, 149, 156);
+  background-color: #0d1421;
+}
+
+#scene {
+  min-height: 500px;
+  background:  #7b855a;
+  border: 2px solid #b6c097;
+  position: relative;
+  overflow: hidden;
+}
+
+#creature {
+  width: 120px;
+  height: 120px;
+  background: rgb(171, 177, 180);
+  color: rgb(73, 83, 88);
+  border-radius: 30px;
+  border-color:#324101;
+  padding: 20px;
+  box-sizing: border-box;
+  cursor: pointer;
+  position: absolute;
+  left: 40px;
+  top: 40px;
+  transition: background 0.3s, border-radius 0.3s, transform 0.3s, box-shadow 0.3s;
+  z-index: 2;
+}
+
+#thought {
+  display: none;
+  position: absolute;
+  left: 95px;
+  top: -20px;
+  background:  #0d1421;
+  color: rgb(136, 149, 156);
+  border: 2px solid rgb(136, 149, 156);
+  border-radius: 20px;
+  padding: 12px;
+  width: 180px;
+  z-index: 3;
+  pointer-events: none;
+}
+
+.transformed {
+  background: lavender;
+  border-radius: 50%;
+  transform: scale(1.2) rotate(10deg);
+}
+
+.following {
+  box-shadow: 0 0 20px black;
+}
+
+#status {
+  font-size: 20px;
+  font-weight: bold;
+}
