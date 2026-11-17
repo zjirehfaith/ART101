@@ -1,32 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <!-- All techy stuff goes here, inside HEAD -->
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- Overall title of your page -->
-  <title>Final Project (Prototype and Try)</title>
-
-  <!-- Link to external CSS file -->
-  <link rel="stylesheet" href="fp.css">
-
-  <!-- jQuery library -->
-  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-
-  <!-- Link to external JavaScript file -->
-  <script src="fp.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Final Project (Prototype and Try) </title>
+    <link rel="stylesheet" href="fp.css">
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="fp.js" defer></script>
 </head>
-
 <body>
+
+    <h1> Guess Your College </h1>
+    
+    <!-- Start Button; this code is from W3Schools -->
+    <button id="startbutton" onclick="startButton()">START</button>
+
+    <!-- Other Buttons after START button -->
+    <div id="questionbox" class="hidden">
+        <h2> Pick One of the Five UCSC Academic Divisions</h2>
+            <button id="art" onclick="answer('Art')">Art</button>
+            <button id="baskinengineering" onclick="answer('Baskin Engineering')">Baskin Engineering</button>
+            <button id="humanities" onclick="answer('Humanities')">Humanities</button>
+            <button id="physicalbiological" onclick="answer('Physical & Biological Sciences')">Physical & Biological Sciences</button>
+            <button id="socialsciences" onclick="answer('Social Sciences')">Social Sciences</button>
+    </div>
+
+    <!-- Answer -->
+        <div id="answerbox" class="hidden">
+            <h2 id="textanswer"></h2>
+        </div>
     
 
 
 
-
-
-
 </body>
-
 </html>

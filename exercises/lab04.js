@@ -1,5 +1,6 @@
 let count = 0;
 
+// description of fluffycat + arrays that describe my creature's different moods.
 let fluffycatButton = {
     name: "Iris",
     species: "interface kitty",
@@ -7,6 +8,7 @@ let fluffycatButton = {
     moods: ["neutral", "hungry", "scared", "playful", "sleepy", "annoyed"]
 };
 
+// clickable button that increases the count, and provides describing messages of my creature. 
 $("#needy-button").click(function () {
 
     count = count + 1;
